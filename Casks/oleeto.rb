@@ -8,4 +8,9 @@ cask "oleeto" do
   homepage "https://github.com/TrentWantman/oleeto"
 
   app "Oleeto.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-r", "-d", "com.apple.quarantine", "#{appdir}/Oleeto.app"]
+  end
 end

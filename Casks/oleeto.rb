@@ -1,6 +1,6 @@
 cask "oleeto" do
   version "0.4.0"
-  sha256 "4ded0e4cd5e2424aedac2704fa9172b7561b266bcff10dd35e1e54bf203d1efa"
+  sha256 "5e318c439ca0788c9b2e854344e98ae541fdcb8aaaa2712aa0427c809d21d2a0"
 
   url "https://github.com/TrentWantman/oleeto/releases/download/v#{version}/Oleeto-#{version}-arm64.dmg"
   name "oleeto"
